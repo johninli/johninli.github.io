@@ -11,9 +11,13 @@
     <!--Description-->
     
         <meta name="description" content="欢迎使用hexo背景，各种组件颜色亦或图标都能轻松自定义；集成多种独立页面和第三方服务。
-不要太相信自己
+
+在文章中插入引言，可包含作者、来源和标题。不要太相信自己
 王阳明, @baidu百度
-测试代码文章测试1234alert(&#39;Hello World!&#39;);中国&amp;lt;img src=&#34;assets/work1.jpg&#34;,alt=&#34;R&#34;,width=60">
+链接插入：
+
+在文章中插入代码测试代码文章测试12alert(&#39;Hello World!&#39;);中国
+另一种形式的代码块，不">
     
 
     <!--Author-->
@@ -129,7 +133,7 @@
         
         <li><a href="/" class="grid" data-title="Portfolio"></a></li>
         
-        <li><a class="next disabled"></a></li>
+        <li><a href="/2017/12/29/main/" class="next" data-title="main"></a></li>
         
     </ul>
 
@@ -146,20 +150,31 @@
 
             <!-- Content -->
             <p>欢迎使用hexo<br>背景，各种组件颜色亦或图标都能轻松自定义；<br>集成多种独立页面和第三方服务。</p>
-<blockquote><p>不要太相信自己</p>
-<footer><strong>王阳明, @baidu</strong><cite><a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a></cite></footer></blockquote>
-<figure class="highlight objc"><figcaption><span>测试代码</span><a href="https://www.baidu.com" target="_blank" rel="noopener">文章测试</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">alert('Hello World!');</span><br><span class="line">中国</span><br><span class="line">&lt;img src=<span class="string">"assets/work1.jpg"</span>,alt=<span class="string">"R"</span>,width=<span class="number">600</span> height=<span class="number">300</span>&gt;</span><br><span class="line">![图片描述](assets/hero_image.jpg)  </span><br></pre></td></tr></table></figure>
-<blockquote class="pullquote [class]"><p>print(‘hello’);</p>
-</blockquote>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<img src="/2017/12/29/test-md/assets/work1.jpg" width="640" height="640" title="this is a message">
+<p>在文章中插入引言，可包含作者、来源和标题。<br><blockquote><p>不要太相信自己</p>
+<footer><strong>王阳明, @baidu</strong><cite><a href="https://www.baidu.com" target="_blank" rel="noopener">百度</a></cite></footer></blockquote></p>
+<p>链接插入：<br><a href="https://www.baidu.com" title="测试百度" target="_blank" rel="noopener"></a><br><a href="https://www.baidu.com" text="hello" target="_blank" rel="noopener"></a></p>
+<p><img src="/2017/12/29/test-md/assets/work1.jpg" ,alt="R" ,width="600" height="300"></p>
+<p>在文章中插入代码<br><figure class="highlight objc"><figcaption><span>测试代码</span><a href="https://www.baidu.com" target="_blank" rel="noopener">文章测试</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">alert('Hello World!');</span><br><span class="line">中国</span><br></pre></td></tr></table></figure></p>
+<p>另一种形式的代码块，不同的是它使用三个反引号来包裹。</p>
+<p>[language] [title] [url] [link text] code snippet<br><blockquote class="pullquote [class]"><p>print(‘hello’);</p>
+</blockquote></p>
+<p><img src="/2017/12/29/test-md/assets/hero_image.jpg" alt="图片描述">  </p>
+<p>声音的插入</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="http://music.163.com/outchain/player?type=2&id=25706282&auto=0&height=66"><br></iframe>  
 
+<p>视频的插入<br>Idina Menze和Caleb Hyles激情对唱Let It Go：  </p>
+<iframe height="498" width="510" src="http://player.youku.com/embed/XNjcyMDU4Njg0" frameborder="0" allowfullscreen><br></iframe>
+
+
+<!-- <a>text url [external] [title]</a> –&gt;
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>
+-->
 
             <!-- Tags -->
             
